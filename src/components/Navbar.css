@@ -1,0 +1,83 @@
+/* Basic styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    height: 10vh;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-search {
+    flex: 1; /* Takes up remaining space in the navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    outline: none;
+    font-size: 14px;
+    width: 50vw; /* Adjust the width to your preference */
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-item {
+    font-size: 16px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Change link color on hover */
+  .navbar-link:hover {
+    color: #F8CA00;
+  }
+  @media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-direction: column; */
+        height: 10vh;
+        padding: 1.5rem;
+        font-size: 1rem;
+
+      }
+      .navbar-title {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    .navbar-search {
+        padding: 1rem ;
+        width: auto;
+      order: 2; /* Move the search bar to the bottom on smaller screens */
+    }
+    
+    .navbar-list {
+       /* flex-basis: 50%;Make the button list full width on smaller screens */
+      order: 3; /* Move the button list above the title on smaller screens */
+
+    }
+  
+    .navbar-title {
+      order: 1; /* Move the title to the top on smaller screens */
+    }
+  }

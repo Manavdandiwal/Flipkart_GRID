@@ -1,0 +1,35 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: repeat(2, 1fr); Two columns */
+    gap: 10px; /* Gap between items */
+    width: 50px;
+}
+
+.product {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+img {
+    height: 10rem;
+    width: 17rem;
+}
+
+.inline {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.image-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}

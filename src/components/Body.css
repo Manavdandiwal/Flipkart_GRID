@@ -1,0 +1,33 @@
+.body {
+    display: grid;
+    grid-template-columns: 40% 60%; /* Set the column ratio to 40:60 */
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+.button {
+    float: left;
+    border: 1px solid green;
+}
+.left {
+    background-color: #f0f0f0; /* Just for visualization, you can adjust this */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the component's width */
+}
+
+.right {
+    background-color: #ededed; /* Just for visualization, you can adjust this */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the component's width */
+}
+
+.search-button {
+    background-color: #b0b8bf; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the button */
+    border: none; /* No border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
