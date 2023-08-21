@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "productId": "1",
+            "productName": "Modern Red T-Shirt",
+            "imageUrl": "https://media.istockphoto.com/id/1454185401/photo/portrait-of-confident-young-asian-man-looking-away.jpg?s=1024x1024&w=is&k=20&c=7PM5RGncLxoDBSlU_i-YdtBppdc71JWHJGtB5Vr0MrU=",
+            "tags": ["t-shirt", "red", "modern"],
+            "price": 19.99
+        },
+
+        {
+            "productId": "2",
+            "productName": "Classic white pant",
+            "imageUrl": "https://media.istockphoto.com/id/1067787574/photo/blank-white-mens-pants-mock-up-isolated.jpg?s=2048x2048&w=is&k=20&c=bas7sZVl-zvo-3nE3cAPypdliJbkJz05DJSgqghcKKg=",
+            "tags": ["pant", "white", "Classic"],
+            "price": 29.99
+        },
+        {
+            "productId": "3",
+            "productName": "Classic black t-shirt",
+            "imageUrl": "https://media.istockphoto.com/id/694412908/photo/black-t-shirt-front-and-back-isolated-on-white-background-with-clipping-path.jpg?s=2048x2048&w=is&k=20&c=uBCWBEuU4MTQBQhrUY0mqZ2P79Qh4ARfHITJ7fa3TO4=",
+            "tags": ["t-shirt", "black", "Classic"],
+            "price": 10.99
+        },
+        {
+            "productId": "4",
+            "productName": "Modern cargo pant",
+            "imageUrl": "https://media.istockphoto.com/id/1496888665/photo/rejuvenated-trendy-mature-woman-with-short-hair-stands-outdoors-in-city-street-wears-youth.jpg?s=2048x2048&w=is&k=20&c=_ody85By6lK7tTfZ6xIXGKWTdhIuah1hOhbYRr6XiHE=",
+            "tags": ["cargo", "modern", "pant"],
+            "price": 19.99
+        },
+        {
+            "productId": "6",
+            "productName": "Elegant white Dress",
+            "imageUrl": "https://media.istockphoto.com/id/1009480924/photo/photo-portrait-of-attractive-pretty-cute-lovable-fascinating-delicate-alluring-gorgeous-nice.jpg?s=2048x2048&w=is&k=20&c=U3zM0wMIHrAyRCP42CxoPGARnVHxcSe3NdB5Smr3YbA=",
+            "tags": ["dress", "white", "elegant"],
+            "price": 39.99
+        },
+        {
+            "productId": "7",
+            "productName": "Vintage Leather Jacket",
+            "imageUrl": "https://media.istockphoto.com/id/969667058/photo/pensive-stylish-man-in-leather-jacket-standing-near-vintage-car-and-looking-away.jpg?s=2048x2048&w=is&k=20&c=l5CGLXuLxDwtGRp-FPEuxoan6LGY2sOn-jStiwhdEdo=",
+            "tags": ["jacket", "leather", "vintage"],
+            "price": 69.99
+        },
+        {
+            "productId": "8",
+            "productName": "Sunglasses UV400",
+            "imageUrl": "https://media.istockphoto.com/id/1257454169/photo/sunglasses-online-shop-white-background-fashion-design-glasses.jpg?s=2048x2048&w=is&k=20&c=Z0VBnFiGjDt6Npwp8_NGn2UnBp_FwuM4jxTEoSerNhQ=",
+            "tags": ["sunglasses", "uv400", "accessory", "modern"],
+            "price": 15.99
+        },
+        {
+            "productId": "9",
+            "productName": "Casual Checked Shirt",
+            "imageUrl": "https://media.istockphoto.com/id/1173323523/photo/portrait-on-white-background.jpg?s=2048x2048&w=is&k=20&c=4IG7IKpAqaQPShzntSPWheQGGc9wxQZtQo5loXOKb80=",
+            "tags": ["shirt", "checked", "casual", "modern"],
+            "price": 24.99
+        },
+        {
+            "productId": "10",
+            "productName": "Stylish Wristwatch",
+            "imageUrl": "https://media.istockphoto.com/id/1065329058/photo/premium-mens-watch-on-hand-close-up.jpg?s=2048x2048&w=is&k=20&c=P5J_INjq5IZWbwJdUP1LxwZbuMrMjwAlePS0ddZ2ApQ=",
+            "tags": ["wristwatch", "stylish", "accessory", "modern"],
+            "price": 79.99
+        }
+    ]
+}
